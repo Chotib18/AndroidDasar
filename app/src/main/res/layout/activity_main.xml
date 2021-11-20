@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/backround"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="?attr/actionBarSize"
+            android:text="MAIN MENU ANDROID DASAR"
+            android:textStyle="bold"
+            android:textColor="@color/biru1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonOperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Operator Aritmatika Dasar"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonBangunDatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Menghitung bangun datar"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Spinner"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonMenuPopUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Menu Pop Up"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="List View"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonCustomListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Custom List View"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonMultimediaVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Multimedia Video"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonGaleriFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Galeri Foto"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Web VIew"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Radio Button"
+        android:textSize="18dp"
+        app:backgroundTint="#F4511E" />
+
+    <Button
+        android:id="@+id/buttonKeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Keluar"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:backgroundTint="#FDD835" />
+
+</LinearLayout>

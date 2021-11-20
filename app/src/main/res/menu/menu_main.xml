@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menusatu"
+        android:orderInCategory="100"
+        android:title="Menu Pertama"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menudua"
+        android:orderInCategory="100"
+        android:title="Menu Kedua"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menutiga"
+        android:orderInCategory="100"
+        android:title="Menu Ketiga"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuempat"
+        android:orderInCategory="100"
+        android:title="Menu Keempat"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/submenu1"
+                android:title="Sub Item 1"/>
+
+            <item
+                android:id="@+id/submenu2"
+                android:title="Sub Item 2"/>
+        </menu>
+
+    </item>
+
+</menu>

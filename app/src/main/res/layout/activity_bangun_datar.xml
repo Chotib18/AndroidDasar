@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/backround"
+    tools:context=".BangunDatar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="?attr/actionBarSize"
+            android:text="MENGHITUNG LUAS DAN KELILING BANGUN DATAR"
+            android:textStyle="bold"
+            android:textColor="#039BE5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Panjang"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edit_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nilai Panjang"
+        android:inputType="number"
+        android:lines="1"
+        android:textColor="@color/white"
+        android:textColorHint="#9FFFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Lebar"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edit_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nilai Lebar"
+        android:inputType="number"
+        android:lines="1"
+        android:textColor="@color/white"
+        android:textColorHint="#9FFFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_htg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Hitung"
+            android:textSize="18dp"
+            app:backgroundTint="#FF6D00" />
+        
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp"/>
+
+        <Button
+            android:id="@+id/btn_Krm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Kirim"
+            android:textSize="18dp"
+            app:backgroundTint="#FF6D00" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp"/>
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Reset"
+            android:textSize="20sp"
+            app:backgroundTint="#E53935" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_luas"
+        android:text="Luas = "
+        android:gravity="left"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#FFD600"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_keliling"
+        android:text="Keliling ="
+        android:gravity="left"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#FFD600"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

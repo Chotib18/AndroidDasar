@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/list_view_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/gambarbuahCLV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/apel"/>
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/namabuahCLV"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+                android:layout_toStartOf="@+id/gambarbuahCLV"
+                android:minHeight="?attr/actionBarSize"
+                android:text="Apel"
+                android:textSize="30dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    </LinearLayout>
+
+</RelativeLayout>

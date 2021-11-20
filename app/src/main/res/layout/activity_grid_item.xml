@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround"
+    tools:context=".GridItemActivity">
+
+    <TextView
+        android:id="@+id/grid_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:text="Apel"
+        android:textStyle="bold"
+        android:textColor="#FFB300"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/gambarView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/apel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/grid_data"
+        android:layout_marginTop="27dp"/>
+
+    <TextView
+        android:id="@+id/grid_deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:text="Ini Adalah Gambar Buah Apel"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

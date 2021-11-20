@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chotib.uaschotib">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_ct"
+        android:label="Android Dasar"
+        android:roundIcon="@mipmap/ic_launcher_ct_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UASChotib">
+        <activity
+            android:name=".RadioButtonCt"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HasilBangunDatar"
+            android:parentActivityName=".BangunDatar" />
+        <activity
+            android:name=".HasilOperator"
+            android:parentActivityName=".Operator" />
+        <activity android:name=".WebViewCt" />
+        <activity
+            android:name=".GridItemActivity"
+            android:parentActivityName=".GaleryFoto" />
+        <activity
+            android:name=".detail_list_view"
+            android:parentActivityName=".CostumListView" />
+        <activity
+            android:name=".GaleryFoto"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MultimediaVideo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CostumListView"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ListView"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MenuPopUp"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Spinner"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BangunDatar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Operator"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashCt"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
